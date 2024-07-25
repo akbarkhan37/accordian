@@ -1,0 +1,16 @@
+.accordian {
+  width: 100%;
+  max-width: 600px;
+  margin: 60px auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.accordian-item {
+  border-bottom: 1px solid #ddd;
+}
+
+.accordian-item:last-child {
+  border-bottom: none;
+}
